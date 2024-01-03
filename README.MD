@@ -14,18 +14,17 @@ Lugo debes agregarle .git al final.
 ```
 
 ## 3- Configurar el publishConfig en el package.json
-Debes cambiar username y repository por los valores correspondientes.
 ```json
 "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@username"
+  "registry": "https://npm.pkg.github.com"
 }
 ```
 
 ## 4- Crear un archivo .npmrc en la raiz del proyecto
-Debes cambiar username y token por los valores correspondientes.
+Debes cambiar NAMESPACE por username o el nombre de la org y token por los valores correspondientes.
 ```text
 //npm.pkg.github.com/:_authToken=token
-registry=https://npm.pkg.github.com/@username
+@NAMESPACE:registry=https://npm.pkg.github.com
 ```
 #### 4.1- En este paso debes crear un token en github, para esto debes ir a la configuracion de tu cuenta, luego a developer settings y por ultimo a personal access tokens.
 Debes crear un token con los siguientes permisos:
