@@ -1,0 +1,15 @@
+{
+  "name": "pkg-js-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/yasniel1408/github-js-lib.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@yasnie1408"
+  },
+  "author": "Yasniel Fajardo Egues",
+  "license": "ISC"
+}
