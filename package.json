@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":"https://github.com/yasniel1408/github-js-lib.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@yasniel1408"
   },
