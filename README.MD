@@ -21,7 +21,7 @@ Debes cambiar username y repository por los valores correspondientes.
 ## 4- Crear un archivo .npmrc en la raiz del proyecto
 Debes cambiar username y token por los valores correspondientes.
 ```text
-v
+//npm.pkg.github.com/:_authToken=token
 registry=https://npm.pkg.github.com/@username
 ```
 
