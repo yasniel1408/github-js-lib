@@ -19,6 +19,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@${{ github.repository_owner }}'
       - run: npm i
-      - run: npm publish
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
